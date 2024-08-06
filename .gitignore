@@ -1,5 +1,5 @@
 **/*.flattened-pom.xml
-/api/target/
-/core/target/
+/api/target
+/core/target
 /rest/target
 /domain/target
