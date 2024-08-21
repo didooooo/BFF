@@ -12,4 +12,21 @@
     <version>${revision}</version>
     <name>domain</name>
     <description>Domain</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.tinqinacademy.hotel</groupId>
+            <artifactId>restexport</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tinqinacademy.comments</groupId>
+            <artifactId>restexport</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tinqinacademy.authentication</groupId>
+            <artifactId>rest-export</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
