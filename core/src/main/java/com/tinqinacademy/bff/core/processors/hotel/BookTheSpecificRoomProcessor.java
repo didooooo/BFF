@@ -35,6 +35,6 @@ public class BookTheSpecificRoomProcessor implements BookTheSpecificRoomOperatio
                     BookTheSpecificRoomOutputBFF result = conversionService.convert(bookTheSpecificRoomOutput, BookTheSpecificRoomOutputBFF.class);
                     return result;
                 }).toEither()
-                .mapLeft(throwable -> errorMapper.mapError(throwable));
+                .mapLeft(errorMapper::mapError);
     }
 }

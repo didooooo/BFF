@@ -1,7 +1,7 @@
 package com.tinqinacademy.bff.rest.controllers;
 
-import com.tinqinacademy.hotel.api.models.exceptions.Errors;
 import io.vavr.control.Either;
+import com.tinqinacademy.bff.api.exceptions.Errors;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
